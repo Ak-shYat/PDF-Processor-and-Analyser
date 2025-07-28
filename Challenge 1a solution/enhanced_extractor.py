@@ -1,4 +1,4 @@
-import fitz  # PyMuPDF
+import fitz 
 import re
 from collections import defaultdict
 import math

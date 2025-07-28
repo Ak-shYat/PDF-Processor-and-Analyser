@@ -4,8 +4,8 @@ from enhanced_extractor import extract_pdf_features, remove_duplicates
 from lightweight_classifier import LightweightHeadingClassifier
 from json_writer import write_output
 
-INPUT_DIR = './input'
-OUTPUT_DIR = './output'
+INPUT_DIR = 'input'
+OUTPUT_DIR = 'output'
 
 def process_pdfs_with_ml():
     """Process PDFs using the lightweight ML classifier"""
