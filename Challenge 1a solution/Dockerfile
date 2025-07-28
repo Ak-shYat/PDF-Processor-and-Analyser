@@ -8,5 +8,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy all code
 COPY . .
 
-# Set entrypoint to process_pdfs.py
+# Set entrypoint to main.py
 ENTRYPOINT ["python", "main.py"]
