@@ -1,0 +1,6 @@
+PyPDF2
+numpy
+scikit-learn
+pandas
+pdfminer.six
+pymupdf
